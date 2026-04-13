@@ -1,0 +1,70 @@
+{
+  "feature_cols": [
+    "age",
+    "sex",
+    "trestbps",
+    "chol",
+    "fbs",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "cp_0",
+    "cp_1",
+    "cp_2",
+    "cp_3",
+    "restecg_0.0",
+    "restecg_1.0",
+    "restecg_2.0",
+    "slope_0",
+    "slope_1",
+    "slope_2",
+    "ca_0",
+    "ca_1",
+    "ca_2",
+    "ca_3",
+    "ca_4",
+    "thal_0",
+    "thal_1",
+    "thal_2",
+    "thal_3"
+  ],
+  "original_feature_cols": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "target_map": {
+    "0": "No Disease",
+    "1": "Disease"
+  },
+  "continuous_cols": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak"
+  ],
+  "ohe_cols": [
+    "cp",
+    "restecg",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "binary_cols": [
+    "sex",
+    "fbs",
+    "exang"
+  ],
+  "sklearn_version": "1.8.0"
+}
